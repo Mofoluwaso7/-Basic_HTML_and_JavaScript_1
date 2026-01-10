@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementById Task</title>
+</head>
+<body>
+
+  <!-- (2) Paragraph with ID "Irish" -->
+  <p id="Irish">Hello from Ireland 🇮🇪</p>
+
+  <!-- (1) Button element -->
+  <button onclick="getParagraph()">Click Me</button>
+
+  <script>
+    // (3) Function that returns the paragraph element using its ID
+    function getParagraph() {
+      let paragraph = document.getElementById("Irish");
+      alert(paragraph.innerText);
+    }
+  </script>
+
+</body>
+</html>
